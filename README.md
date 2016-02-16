@@ -1,6 +1,6 @@
 # Riot-Tag
 
-Riot tag syntax highlighting for [Visual Studio Code](https://code.visualstudio.com)
+[Riot.js](http://riotjs.com/) tag syntax highlighting for [Visual Studio Code](https://code.visualstudio.com)
 
 This is a conversion of my sublime-tag extension to do syntax highlighting 
 for Riot js tag files. This extension supports HTML, Jade and Coffeescript within
