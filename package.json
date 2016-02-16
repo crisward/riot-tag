@@ -3,6 +3,7 @@
 	"displayName": "Riot-Tag",
 	"description": "Riot Tag Syntax for HTML,JADE and Coffeescript",
 	"version": "0.0.1",
+  "icon":"icon.png",
 	"publisher": "crisward",
 	"engines": {
 		"vscode": "^0.10.6"
