@@ -2,8 +2,8 @@
 	"name": "riot-tag",
 	"displayName": "Riot-Tag",
 	"description": "Riot Tag Syntax Highlighting for Riot.js HTML,JADE and Coffeescript",
-	"version": "0.0.3",
-  "icon":"icon.png",
+	"version": "0.0.4",
+  "icon":"images/icon.png",
 	"publisher": "crisward",
 	"engines": {
 		"vscode": "^0.10.6"
