@@ -1,0 +1,35 @@
+{
+	"name": "riot-tag",
+	"displayName": "Riot-Tag",
+	"description": "Riot Tag Syntax for HTML,JADE and Coffeescript",
+	"version": "0.0.1",
+	"publisher": "crisward",
+	"engines": {
+		"vscode": "^0.10.6"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "jadetag",
+			"aliases": ["Riot (Jade)", "jade"],
+			"extensions": [".tag"],
+			"configuration": "./jadetag.configuration.json"
+		},{
+			"id": "htmltag",
+			"aliases": ["Riot (HTML)", "HTML"],
+			"extensions": [".tag"],
+			"configuration": "./htmltag.configuration.json"
+		}],
+		"grammars": [{
+			"language": "jadetag",
+			"scopeName": "source.jade",
+			"path": "./syntaxes/jadetag.tmLanguage"
+		},{
+			"language": "htmltag",
+			"scopeName": "text.html.basic",
+			"path": "./syntaxes/htmltag.tmLanguage"
+		}]
+	}
+}
