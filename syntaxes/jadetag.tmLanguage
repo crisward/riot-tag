@@ -142,7 +142,7 @@
         </dict>
       </dict>
       <key>end</key>
-      <string>^(type=["']text\/coffee(script)?['"]\)\.)</string>
+      <string>^(?!\1\s+)</string>
       <key>name</key>
       <string>source.coffee.embedded.jade</string>
       <key>patterns</key>
