@@ -27,12 +27,21 @@ issues when combining with coffeescript. Jade can compile the coffeescript itsel
 but I had a few issues with this. To use the jade support follow the same
 instructions below, but selet Riot(Jade) as the syntax.
 
+Since 0.7 the Riot(Jade) now highlights Css and Stylus correctly
+within style tags.
+
 ```jade
 yourtag
   p hello world
 
   script(type="text/coffee").
     # your coffee script here
+    
+  style.
+    /* your css here */
+    
+  style(type="text/stylus")
+    // your stylus here 
 
 ```
 
