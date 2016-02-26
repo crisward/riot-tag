@@ -2,7 +2,7 @@
 	"name": "riot-tag",
 	"displayName": "Riot-Tag",
 	"description": "Riot Tag Syntax Highlighting for Riot.js HTML,JADE and Coffeescript",
-	"version": "0.0.9",
+	"version": "0.1.0",
   "icon":"images/icon.png",
 	"publisher": "crisward",
 	"engines": {

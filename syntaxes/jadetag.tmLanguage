@@ -142,7 +142,7 @@
         </dict>
       </dict>
       <key>end</key>
-      <string>^(?!\1\s+)</string>
+      <string>^(?!(\1\s)|\s*$)</string>
       <key>name</key>
       <string>source.coffee.embedded.jade</string>
       <key>patterns</key>
@@ -368,7 +368,7 @@
         </dict>
       </dict>
       <key>end</key>
-      <string>^((?=(\1)([\w#\.]|$\n?))|^$\n?)</string>
+      <string>^(?!(\1\s)|\s*$)</string>
       <key>name</key>
       <string>source.js.embedded.jade</string>
       <key>patterns</key>
