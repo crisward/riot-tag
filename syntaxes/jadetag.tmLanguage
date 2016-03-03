@@ -132,7 +132,7 @@
     
     <dict>
       <key>begin</key>
-      <string>^(\s*)(script)(?=\(type=["']text\/coffee(script)?['"]\)\.)</string>
+      <string>^(\s*)(script)(?=\(type=["'](text\/)?coffee(script)?['"]\)\.)</string>
       <key>beginCaptures</key>
       <dict>
         <key>2</key>
