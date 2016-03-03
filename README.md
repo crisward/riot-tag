@@ -38,7 +38,7 @@ within style tags.
 yourtag
   p hello world
 
-  script(type="text/coffee").
+  script(type="coffee").
     # your coffee script here
     
   style.
