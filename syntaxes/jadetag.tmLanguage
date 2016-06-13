@@ -594,7 +594,7 @@
     <key>tag-generic-attribute</key>
     <dict>
       <key>match</key>
-      <string>\b([a-zA-Z\-:]+)</string>
+      <string>\b([a-zA-Z\-:_]+)</string>
       <key>name</key>
       <string>entity.other.attribute-name.jade</string>
     </dict>
