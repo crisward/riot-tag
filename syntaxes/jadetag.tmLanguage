@@ -265,7 +265,7 @@
  
     <dict>
 			<key>begin</key>
-      <string>^(\s*)(style)(?=\(type=["']text\/stylus['"][^)]*\)\.)</string>
+      <string>^(\s*)(style)(?=\(type=["'](text\/)?stylus['"][^)]*\)\.)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>2</key>
