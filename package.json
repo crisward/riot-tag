@@ -22,22 +22,22 @@
 	"contributes": {
 		"languages": [{
 			"id": "jadetag",
-			"aliases": ["Riot (Jade)", "jade"],
+			"aliases": ["Riot (Jade)"],
 			"extensions": [".tag"],
 			"configuration": "./jadetag.configuration.json"
 		},{
 			"id": "htmltag",
-			"aliases": ["Riot (HTML)", "HTML"],
+			"aliases": ["Riot (HTML)"],
 			"extensions": [".tag"],
 			"configuration": "./htmltag.configuration.json"
 		}],
 		"grammars": [{
 			"language": "jadetag",
-			"scopeName": "source.jade",
+			"scopeName": "source.jade.riot",
 			"path": "./syntaxes/jadetag.tmLanguage"
 		},{
 			"language": "htmltag",
-			"scopeName": "text.html.basic",
+			"scopeName": "text.html.riot",
 			"path": "./syntaxes/htmltag.tmLanguage"
 		}]
 	}
