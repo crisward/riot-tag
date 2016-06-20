@@ -62,6 +62,26 @@ Inside visual studio code
 cmd+shift+p
 type: ext install riot-tag
 ```
+The package contains 2 syntax highlighters riot(html) and riot(jade). If VSCode picks the wrong one, you can specify the correct one in your settings file.
+
+##### HTML Settings
+```json
+
+{
+     "files.associations": {
+        "*.tag": "htmltag"
+    }
+}
+```
+##### Jade Settings
+```
+{
+     "files.associations": {
+        "*.tag": "jadetag"
+    }
+}
+```
+
 
 ### Using with Browserify
 
