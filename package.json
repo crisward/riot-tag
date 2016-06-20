@@ -1,44 +1,58 @@
 {
-	"name": "riot-tag",
-	"displayName": "Riot-Tag",
-	"description": "Riot Tag Syntax Highlighting for Riot.js HTML,JADE and Coffeescript",
-	"version": "0.1.6",
-  "icon":"images/icon.png",
-	"publisher": "crisward",
-	"engines": {
-		"vscode": "^0.10.6"
-	},
+  "name": "riot-tag",
+  "displayName": "Riot-Tag",
+  "description": "Riot Tag Syntax Highlighting for Riot.js HTML,JADE and Coffeescript",
+  "version": "0.1.7",
+  "icon": "images/icon.png",
+  "publisher": "crisward",
+  "engines": {
+    "vscode": "^0.10.6"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/crisward/riot-tag"
   },
-	"categories": [
-		"Languages"
-	],
+  "categories": [
+    "Languages"
+  ],
   "homepage": "https://github.com/crisward/riot-tag",
   "bugs": {
     "url": "https://github.com/crisward/riot-tag/issues"
   },
-	"contributes": {
-		"languages": [{
-			"id": "jadetag",
-			"aliases": ["Riot (Jade)"],
-			"extensions": [".tag"],
-			"configuration": "./jadetag.configuration.json"
-		},{
-			"id": "htmltag",
-			"aliases": ["Riot (HTML)"],
-			"extensions": [".tag"],
-			"configuration": "./htmltag.configuration.json"
-		}],
-		"grammars": [{
-			"language": "jadetag",
-			"scopeName": "source.jade.riot",
-			"path": "./syntaxes/jadetag.tmLanguage"
-		},{
-			"language": "htmltag",
-			"scopeName": "text.html.riot",
-			"path": "./syntaxes/htmltag.tmLanguage"
-		}]
-	}
+  "contributes": {
+    "languages": [
+      {
+        "id": "jadetag",
+        "aliases": [
+          "Riot (Jade)"
+        ],
+        "extensions": [
+          ".tag"
+        ],
+        "configuration": "./jadetag.configuration.json"
+      },
+      {
+        "id": "htmltag",
+        "aliases": [
+          "Riot (HTML)"
+        ],
+        "extensions": [
+          ".tag"
+        ],
+        "configuration": "./htmltag.configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "jadetag",
+        "scopeName": "source.jade.riot",
+        "path": "./syntaxes/jadetag.tmLanguage"
+      },
+      {
+        "language": "htmltag",
+        "scopeName": "text.html.riot",
+        "path": "./syntaxes/htmltag.tmLanguage"
+      }
+    ]
+  }
 }
