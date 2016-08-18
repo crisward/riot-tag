@@ -22,6 +22,11 @@ With this plugin you can use
 ```
 This will then have correct syntax highlighting.
 
+### What's New
+
+I've merged the highlighting for Jade + HTML so there is 
+no need to choose which one you want to use, just type and it should work.
+
 ### Jade Support
 
 If you like white space sensitive languages, Jade can be
@@ -31,8 +36,7 @@ overheads to your packages tags. Riot-tag(Jade) supports
 Jade syntax highlighting, along with embedded coffeescript,
 stylus and normal JS.
 
-Since 0.7  Riot(Jade) now highlights Css and Stylus correctly
-within style tags.
+
 
 ```jade
 yourtag
@@ -63,25 +67,6 @@ cmd+shift+p
 type: ext install riot-tag
 ```
 The package contains 2 syntax highlighters riot(html) and riot(jade). If VSCode picks the wrong one, you can specify the correct one in your settings file.
-
-##### HTML Settings
-```json
-
-{
-     "files.associations": {
-        "*.tag": "htmltag"
-    }
-}
-```
-##### Jade Settings
-```
-{
-     "files.associations": {
-        "*.tag": "jadetag"
-    }
-}
-```
-
 
 ### Using with Browserify
 
@@ -130,6 +115,7 @@ see https://github.com/crisward/riot-tag
 
 ### History
 
+0.1.8  I've merged the highlighting for Jade + HTML so there is no need to choose which one you want to use, just type and it should work.
 0.1.1  Can now use `script(type="coffee")` or `<script type="coffee">`
 0.0.8  Fixed Stylus Bug
 0.0.7  Added stylus support for Jade
