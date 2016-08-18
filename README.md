@@ -115,8 +115,13 @@ see https://github.com/crisward/riot-tag
 
 ### History
 
-0.1.8  I've merged the highlighting for Jade + HTML so there is no need to choose which one you want to use, just type and it should work.
-0.1.1  Can now use `script(type="coffee")` or `<script type="coffee">`
-0.0.8  Fixed Stylus Bug
-0.0.7  Added stylus support for Jade
-0.0.6  Allows multiple script tags in jade
+|Version | Description
+|----    |----
+| 0.1.8  | I've merged the highlighting for Jade + HTML so there is no need to choose which one you want to use, just type and it should work.
+| 0.1.6  | Allows underscores in attribute names
+| 0.1.5  | Can now use `style(type="stylus")`
+| 0.1.4  | Fixed sourcename bug
+| 0.1.1  | Can now use `script(type="coffee")` or `<script type="coffee">`
+| 0.0.8  | Fixed Stylus Bug
+| 0.0.7  | Added stylus support for Jade
+| 0.0.6  | Allows multiple script tags in jade
