@@ -1,5 +1,8 @@
 # Riot-Tag
 
+> **NOTE:**
+> This plugin should continue to work fine, however be aware it is no longer being maintained and will not receive any additional updates.
+
 [Riot.js](http://riotjs.com/) tag syntax highlighting for [Visual Studio Code](https://code.visualstudio.com)
 
 ![screencast](https://github.com/crisward/riot-tag/raw/master/images/screen-cast.gif)
